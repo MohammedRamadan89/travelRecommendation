@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body , html {
+  height: 100%;
+}
+nav{
+  background-color: #363842;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding : 20px;
+}
+
+
+
+.searchArea button{
+  margin-left: 10px;
+  padding: 3px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+nav span{
+  font-size: 30px;
+}
+nav input{
+  border-radius: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+nav ul li {
+  display : inline;
+  margin-right: 10px;
+}
+.container{
+
+  padding-left: 80px;
+  height: 100%;
+  background-image : url("travel-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.recommendations{
+  padding-top: 140PX;
+}
+.recommendations h1{
+  
+  font-size: 50px;
+  padding: 5px;
+
+}
+.recommendations div{
+  padding: 5px;
+  font-size: 20px;
+  width: 350px;
+}
+.recommendations div p strong{
+  letter-spacing: 2px;
+}
+.container button{
+  margin: 20px 15px;
+  padding: 5px;
+}
+
+.company h1{
+  font-size: 60px;
+  padding-top: 30PX;
+}
+
+.company p{
+    width: 85%;
+  padding: 40px 0px;
+  font-weight: 500;
+}
+.our-team{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+}
+.our-team .team {
+  padding: 15px;
+  border-radius: 3px;
+  width: 22%;
+  background-color: rgb(125 118 118 / 66%);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.our-team h2{
+  font-size: 40px;
+  margin-right: 60px;
+}
+.team span{
+  display: block;
+  background-color: rgb(11 87 98 / 79%);
+  color: white;
+  margin-top: 7px;
+  padding: 5px;
+  text-align: center;
+}
+.team p{
+  padding: 5px 0px;
+}
+
+/* About Style */
+.about-container{
+  height: 100%;
+  background-image: url("./travel-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+
+}
+.about-container h1{
+  margin: 180px;
+  font-size: 50px;
+}
+form{
+  background-color: rgb(125 118 118 / 0%);
+  width: 40%;
+  padding: 0px 40px;
+  margin-top: 80px;
+}
+form input{
+  padding: 4px;
+  display: block;
+  width: 100%;
+  border: 0.5px solid rgb(116, 115, 111);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: rgb(125 118 118 / 0%);
+}
+form label{
+  
+  border-radius:6px;
+  display: block;
+  padding: 7px 0px;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  -ms-border-radius:6px;
+  -o-border-radius:6px;
+}
+form textarea{
+  border: 0.5px solid rgb(116, 115, 111);
+  width: 100%;
+  border-radius: 6px;
+  resize: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: rgb(125 118 118 / 0%);
+}
+::placeholder{
+  text-align: center;
+  color: rgb(231, 229, 229);
+}
+#search::placeholder{
+  
+  color: rgb(129, 122, 122);
+}
