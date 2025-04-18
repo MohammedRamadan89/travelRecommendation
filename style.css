@@ -16,8 +16,6 @@ nav{
   padding : 20px;
 }
 
-
-
 .searchArea button{
   margin-left: 10px;
   padding: 3px;
@@ -32,6 +30,7 @@ nav span{
 }
 nav input{
   border-radius: 20px;
+  padding: 2px 7px;
 }
 a{
   text-decoration: none;
@@ -45,13 +44,12 @@ nav ul li {
   margin-right: 10px;
 }
 .container{
-
   padding-left: 80px;
-  height: 100%;
-  background-image : url("travel-bg.jpg");
+  background-image : url("images/travel-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 100vh;
 
 }
 .recommendations{
@@ -74,6 +72,12 @@ nav ul li {
 .container button{
   margin: 20px 15px;
   padding: 5px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  background-color: #ceb76a;
 }
 
 .company h1{
@@ -119,17 +123,15 @@ nav ul li {
 }
 
 /* About Style */
-.about-container{
-  height: 100%;
-  background-image: url("./travel-bg.jpg");
-  background-position: center;
-  background-size: cover;
+
+.justify{
+
   display: flex;
   justify-content: space-between;
-
 }
-.about-container h1{
-  margin: 180px;
+
+.justify > h1{
+  margin: 180px 100px;
   font-size: 50px;
 }
 form{
@@ -178,4 +180,47 @@ form textarea{
 #search::placeholder{
   
   color: rgb(129, 122, 122);
+}
+
+
+#resalt{
+  border-radius: 10px;
+  margin: 10px 100px;
+  max-width: 300px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#resalt img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+
+}
+.resalt-items{
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+}
+.resalt-items p,h2{
+  padding: 3px 5px;
+  margin: -5px 3px;
+}
+.resalt-items button{
+  background-color: #ceb76a;
+  margin: 8px;
+  width: 60px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
